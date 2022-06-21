@@ -1,0 +1,2 @@
+url='https://www.sbs.gob.pe/app/pp/SISTIP_PORTAL/Paginas/Publicacion/TipoCambioPromedio.aspx'
+ctl00_cphContent_rgTipoCambio_ctl00

@@ -1,0 +1,10 @@
+#Programa para registrar los tipos de cambio del dolar
+archivoMonedas=open('monedas.csv','a')
+print("inserte nuevos datos de la moneda : ")
+tipo=input("tipo de moneda : ")
+compra=input("precio de compra : ")
+venta=input("precio de venta : ")
+archivoMonedas.write("\n"+tipo+","+compra+","+venta)
+archivoMonedas.close()
+monedasLectura=open('monedas.csv','r')
+print(monedasLectura.read())
